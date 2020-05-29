@@ -1,2 +1,2 @@
-# fewo-schraufstetter
-Website der Ferienwohnung Schraufstetter
+# fewo-schraufstetter.github.io
+Website der Ferienwohnung Schraufstetter.
