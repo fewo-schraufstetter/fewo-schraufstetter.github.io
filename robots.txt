@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /assets/
+
+User-agent: Googlebot
+Disallow: /assets/
+
+User-Agent: Googlebot-Image
+Disallow: /assets/
+
+User-agent: ia_archiver
+Disallow: /
