@@ -1,12 +1,3 @@
-/*
-  Template Name: OsteriaX
-  Author : MarkUps
-  Author URI: http://www.markups.io/
-  Version: 1.0
-  Tags: light, white, restaurant, multi page, landing page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
-
-*/
-
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
@@ -775,16 +766,18 @@ img {
   color: #fff;
 }
 
-#mu-client-testimonial .mu-text p {
+#mu-client-testimonial .mu-text > p {
   color: #fff;
+  font-size: 20px;
   display: inline;
   float: left;
   width: 100%;
   text-align: center;
 }
 
-#mu-client-testimonial .mu-text p a {
+#mu-client-testimonial .mu-text > p a {
   color: #fff;
+  text-decoration: underline
 }
 
 .mu-client-testimonial-area {
@@ -835,6 +828,11 @@ img {
   padding: 0;
   position: relative;
   z-index: 20;
+}
+
+.mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p:before {
@@ -923,6 +921,10 @@ img {
   margin-top: 20px;
   padding: 0 15px;
   width: 100%;
+}
+
+.mu-contact-right a, .mu-contact-left a {
+  text-decoration: underline;
 }
 
 .mu-contact-right h3, .mu-contact-left h3 {
