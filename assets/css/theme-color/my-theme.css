@@ -69,8 +69,8 @@
 .mu-contact-right a:focus,
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p a:hover,
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p a:focus,
-#mu-client-testimonial .mu-text > p a:hover,
-#mu-client-testimonial .mu-text > p a:focus {
+.mu-testimonial-content > p a:hover,
+.mu-testimonial-content > p a:focus {
   color: #FFA500;
   text-decoration: underline;
 }

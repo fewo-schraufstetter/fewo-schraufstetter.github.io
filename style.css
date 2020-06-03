@@ -766,20 +766,6 @@ img {
   color: #fff;
 }
 
-#mu-client-testimonial .mu-text > p {
-  color: #fff;
-  font-size: 20px;
-  display: inline;
-  float: left;
-  width: 100%;
-  text-align: center;
-}
-
-#mu-client-testimonial .mu-text > p a {
-  color: #fff;
-  text-decoration: underline
-}
-
 .mu-client-testimonial-area {
   display: inline;
   float: left;
@@ -790,6 +776,23 @@ img {
   display: inline;
   float: left;
   width: 100%;
+}
+
+.mu-testimonial-content > p {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 35px;
+  margin-top: 30px;
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.mu-testimonial-content > p a {
+  color: #fff;
+  text-decoration: underline
 }
 
 .mu-testimonial-slider {
@@ -1191,7 +1194,8 @@ img {
     padding: 0;
   }
 
-  .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p {
+  .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p,
+  .mu-testimonial-content > p {
     font-size: 16px;
     line-height: 30px;
   }
@@ -1319,7 +1323,8 @@ img {
     font-size: 28px;
   }
 
-  #mu-client-testimonial .mu-client-testimonial-area .mu-testimonial-content .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p {
+  #mu-client-testimonial .mu-client-testimonial-area .mu-testimonial-content .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p,
+  .mu-testimonial-content > p {
     font-size: 16px;
     line-height: 24px;
   }
