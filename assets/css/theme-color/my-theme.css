@@ -33,9 +33,12 @@
 .mu-footer-social a:hover,
 .mu-footer-social a:hover,
 .navbar-default .navbar-toggle .icon-bar,
-.mu-counter-nav li .mu-single-counter,
 .mu-top-slider .slick-dots li.slick-active button::before {
   background-color: #FFA500;
+}
+
+.mu-counter-nav li .mu-single-counter {
+  background-color: #f8f8f8;
 }
 
 .mu-readmore-btn:hover::after,

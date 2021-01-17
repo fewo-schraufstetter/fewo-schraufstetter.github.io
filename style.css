@@ -564,16 +564,17 @@ img {
 ====================*/
 
 #mu-pricing {
-  background-attachment: fixed;
-  background-image: url("assets/img/pricing-bg.jpeg");
-  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-image: url("assets/img/pricing-bg.jpeg"); */
+  /* background-size: cover; */
+  background-color: #f8f8f8;
   display: inline;
   float: left;
   width: 100%;
 }
 
 .mu-counter-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
   display: inline;
   padding: 100px 0;
   float: left;
@@ -601,18 +602,19 @@ img {
 }
 
 .mu-counter-nav li .mu-single-counter {
-  color: #fff;
   display: inline;
   float: left;
   padding: 25px 15px;
   text-align: center;
   width: 100%;
   margin-bottom: 10px;
+  border: 1px solid #FFA500;
 }
 
-.mu-counter-nav li .mu-single-counter span {
+.mu-counter-nav li .mu-single-counter > span {
   font-family: "Tangerine", cursive;
   font-size: 40px;
+  color: #FFA500;
 }
 
 .mu-counter-nav li .mu-single-counter h3 {
@@ -640,13 +642,14 @@ img {
   margin-bottom: 10;
 }
 .mu-counter-nav li .mu-single-counter ul {
-  text-align: left;
+  text-align: center;
   padding-left: 25px;
 }
 
 .mu-counter-nav li .mu-single-counter ul li {
   line-height: 24px;
   margin-bottom: 5px;
+  display: block;
 }
 
 .mu-counter-nav li .mu-single-counter ul li:before {
