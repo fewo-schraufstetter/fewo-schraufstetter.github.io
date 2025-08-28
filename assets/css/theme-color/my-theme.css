@@ -7,16 +7,16 @@
 .mu-browsmore-btn,
 .mu-main-navbar .mu-main-nav li a:hover,
 .mu-main-navbar .mu-main-nav li a:focus,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title,
 .mu-about-us-right ul li:before,
 .mu-title .mu-subtitle,
 .mu-footer-copyright p a:hover,
 .mu-footer-copyright p a:focus,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
 .mu-main-navbar .navbar-header .navbar-brand span {
   color: #FFA500;
 }
@@ -72,8 +72,8 @@
 .mu-contact-right a:focus,
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p a:hover,
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p a:focus,
-.mu-testimonial-content > p a:hover,
-.mu-testimonial-content > p a:focus {
+.mu-testimonial-content>p a:hover,
+.mu-testimonial-content>p a:focus {
   color: #FFA500;
   text-decoration: underline;
 }

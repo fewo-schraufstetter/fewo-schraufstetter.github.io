@@ -19,44 +19,62 @@
 
 /* prata-regular - latin */
 @font-face {
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 400;
-    src: url('assets/fonts/prata-v18-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-        url('assets/fonts/prata-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('assets/fonts/prata-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('assets/fonts/prata-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
-        url('assets/fonts/prata-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('assets/fonts/prata-v18-latin-regular.svg#Prata') format('svg'); /* Legacy iOS */
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/prata-v18-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('assets/fonts/prata-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('assets/fonts/prata-v18-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('assets/fonts/prata-v18-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('assets/fonts/prata-v18-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('assets/fonts/prata-v18-latin-regular.svg#Prata') format('svg');
+  /* Legacy iOS */
 }
 
 /* tangerine-regular - latin */
 @font-face {
-    font-family: 'Tangerine';
-    font-style: normal;
-    font-weight: 400;
-    src: url('assets/fonts/tangerine-v17-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-        url('assets/fonts/tangerine-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('assets/fonts/tangerine-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('assets/fonts/tangerine-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
-        url('assets/fonts/tangerine-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('assets/fonts/tangerine-v17-latin-regular.svg#Tangerine') format('svg'); /* Legacy iOS */
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/tangerine-v17-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('assets/fonts/tangerine-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('assets/fonts/tangerine-v17-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('assets/fonts/tangerine-v17-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('assets/fonts/tangerine-v17-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('assets/fonts/tangerine-v17-latin-regular.svg#Tangerine') format('svg');
+  /* Legacy iOS */
 }
 
 /* open-sans-regular - latin */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('assets/fonts/open-sans-v34-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-        url('assets/fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('assets/fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('assets/fonts/open-sans-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
-        url('assets/fonts/open-sans-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('assets/fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/open-sans-v34-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('assets/fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('assets/fonts/open-sans-v34-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('assets/fonts/open-sans-v34-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('assets/fonts/open-sans-v34-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('assets/fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg');
+  /* Legacy iOS */
 }
 
 body {
@@ -259,7 +277,7 @@ img {
 
 .mu-main-navbar .navbar-header .navbar-brand span {
   font-size: 25px;
-  }
+}
 
 .mu-main-navbar .navbar-header .navbar-brand img {
   margin-top: -10px;
@@ -276,9 +294,9 @@ img {
   margin-top: -4px;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
   background-color: transparent;
 }
 
@@ -481,35 +499,42 @@ img {
   width: 100%;
 }
 
-.mu-features-right, .mu-features-left {
+.mu-features-right,
+.mu-features-left {
   display: inline;
   float: left;
   margin-top: 20px;
   padding: 0 15px;
   width: 100%;
 }
-.mu-features-right > p, .mu-features-left > p{
+
+.mu-features-right>p,
+.mu-features-left>p {
   letter-spacing: 0.5px;
 }
 
-.mu-features-right h3, .mu-features-left h3 {
+.mu-features-right h3,
+.mu-features-left h3 {
   padding-bottom: 10px;
-    display: inline-block;
+  display: inline-block;
 
 }
 
-.mu-features-right ul, .mu-features-left ul {
+.mu-features-right ul,
+.mu-features-left ul {
   margin-bottom: 20px;
   padding: 0 25px;
 }
 
-.mu-features-right ul li, .mu-features-left ul li {
+.mu-features-right ul li,
+.mu-features-left ul li {
   line-height: 24px;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
 }
 
-.mu-features-right ul li:before, .mu-features-left ul li:before {
+.mu-features-right ul li:before,
+.mu-features-left ul li:before {
   content: "\f0da";
   font-family: fontAwesome;
   margin-right: 10px;
@@ -552,7 +577,8 @@ img {
   width: 100%;
 }
 
-.mu-about-us-right, .mu-about-us-left {
+.mu-about-us-right,
+.mu-about-us-left {
   display: inline;
   float: left;
   margin-top: 20px;
@@ -560,7 +586,8 @@ img {
   width: 100%;
 }
 
-.mu-about-us-right > p, .mu-about-us-left > p {
+.mu-about-us-right>p,
+.mu-about-us-left>p {
   letter-spacing: 0.5px;
 }
 
@@ -653,7 +680,7 @@ img {
   border: 1px solid #FFA500;
 }
 
-.mu-counter-nav li .mu-single-counter > span {
+.mu-counter-nav li .mu-single-counter>span {
   font-family: "Tangerine", cursive;
   font-size: 40px;
   color: #FFA500;
@@ -683,6 +710,7 @@ img {
   letter-spacing: 1.5px;
   margin-bottom: 10;
 }
+
 .mu-counter-nav li .mu-single-counter ul {
   text-align: center;
   padding-left: 25px;
@@ -823,7 +851,7 @@ img {
   width: 100%;
 }
 
-.mu-testimonial-content > p {
+.mu-testimonial-content>p {
   color: #fff;
   font-size: 20px;
   letter-spacing: 0.5px;
@@ -835,7 +863,7 @@ img {
   text-align: center;
 }
 
-.mu-testimonial-content > p a {
+.mu-testimonial-content>p a {
   color: #fff;
   text-decoration: underline
 }
@@ -963,7 +991,8 @@ img {
   width: 100%;
 }
 
-.mu-contact-right, .mu-contact-left {
+.mu-contact-right,
+.mu-contact-left {
   display: inline;
   float: left;
   margin-top: 20px;
@@ -971,36 +1000,43 @@ img {
   width: 100%;
 }
 
-.mu-contact-right a, .mu-contact-left a {
+.mu-contact-right a,
+.mu-contact-left a {
   text-decoration: underline;
 }
 
-.mu-contact-right h3, .mu-contact-left h3 {
+.mu-contact-right h3,
+.mu-contact-left h3 {
   margin-top: 0px;
   padding-bottom: 10px;
   display: inline-block;
 }
 
-.mu-contact-right > p, .mu-contact-left > p {
+.mu-contact-right>p,
+.mu-contact-left>p {
   letter-spacing: 0.5px;
   line-height: 26px;
 }
 
-.mu-contact-right address, .mu-contact-left address {
+.mu-contact-right address,
+.mu-contact-left address {
   margin-top: 20px;
 }
 
-.mu-contact-right address p, .mu-contact-left address p {
+.mu-contact-right address p,
+.mu-contact-left address p {
   letter-spacing: 0.5px;
 }
 
-.mu-contact-right address p i, .mu-contact-left address p i {
+.mu-contact-right address p i,
+.mu-contact-left address p i {
   margin-right: 10px;
   width: 20px;
   text-align: center;
 }
 
-.mu-contact-right address p span, .mu-contact-left address p span {
+.mu-contact-right address p span,
+.mu-contact-left address p span {
   display: inline-block;
   margin-right: 20px;
   min-width: 130px;
@@ -1125,7 +1161,7 @@ img {
   }
 
   .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
-  padding-top: 26%;
+    padding-top: 26%;
   }
 
 
@@ -1196,8 +1232,8 @@ img {
     text-align: center;
   }
 
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
     background-color: #fff;
   }
 
@@ -1222,7 +1258,7 @@ img {
     line-height: 75px;
   }
 
- .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
+  .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
     top: 18%;
   }
 
@@ -1240,7 +1276,7 @@ img {
   }
 
   .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p,
-  .mu-testimonial-content > p {
+  .mu-testimonial-content>p {
     font-size: 16px;
     line-height: 30px;
   }
@@ -1278,7 +1314,7 @@ img {
 @media (max-width: 480px) {
 
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
-   top: 20%;
+    top: 20%;
   }
 
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content p {
@@ -1316,7 +1352,7 @@ img {
     width: 100%;
   }
 
-   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
     padding-top: 30%;
   }
 
@@ -1369,7 +1405,7 @@ img {
   }
 
   #mu-client-testimonial .mu-client-testimonial-area .mu-testimonial-content .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p,
-  .mu-testimonial-content > p {
+  .mu-testimonial-content>p {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1407,7 +1443,7 @@ img {
     float: left;
   }
 
-  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a{
+  #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a {
     display: inline-block;
     margin-bottom: 10px;
   }
